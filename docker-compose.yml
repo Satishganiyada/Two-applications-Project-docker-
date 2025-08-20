@@ -1,0 +1,12 @@
+
+services:
+  app1-python:
+    build: ./pythonapp
+    ports:
+      - "5000:5000"
+
+  app2-node:
+    build: ./nodejs-app
+    ports:
+      - "4000:4000"
+
